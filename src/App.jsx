@@ -6,6 +6,7 @@ import Header from './Header';
 import Contact from './Contact';
 import ErrorPage from './ErrorPage';
 import Footer from './Footer';
+import Blog from './Blog';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path='/blog/:blogId' element={<Blog />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

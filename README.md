@@ -1,4 +1,5 @@
-# React + Vite
+# React App
+# Styling - Bootstrap
 
 #### npm run dev
 
